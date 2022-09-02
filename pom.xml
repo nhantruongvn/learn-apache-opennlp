@@ -15,6 +15,7 @@
     </properties>
 
     <dependencies>
+        <!--https://opennlp.apache.org/maven-dependency-->
         <dependency>
             <groupId>org.apache.opennlp</groupId>
             <artifactId>opennlp-tools</artifactId>
