@@ -14,7 +14,7 @@ public class LanguageDetectorDemo {
 
     public static void main(String[] args) throws IOException {
 
-        InputStream inputStream = new FileInputStream("C:\\Apache\\apache-opennlp-2.0.0\\bin\\langdetect-183.bin");
+        InputStream inputStream = new FileInputStream("src/main/resources/models/langdetect-183.bin");
         LanguageDetectorModel detectorModel = new LanguageDetectorModel(inputStream);
         inputStream.close();
 
